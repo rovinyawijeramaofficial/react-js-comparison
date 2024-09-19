@@ -1,3 +1,5 @@
+import React from 'react';
+
 function NewMeetupPage() {
     return (
     <div>New Meetup Page</div>
