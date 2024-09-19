@@ -1,24 +1,11 @@
-import { Link } from "react-router-dom";
+import React from 'react'
 
-function MainNavigation() {
-    return (
-    <header>
-        <div>React Meetups</div>
-        <nav>
-            <ul>
-                <li>
-                    <Link to='/'>All Meetups</Link>
-                </li>
-                <li>
-                    <Link to='/new-meetup'>Add New Meetup</Link>
-                </li>
-                <li>
-                    <Link to='/Favorites'>My Favorites</Link>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    );
+const MainNavigation = () => {
+  return (
+    <div>
+        <h1>MainNavigation</h1>
+    </div>
+  )
 }
 
-export default MainNavigation;
+export default MainNavigation
